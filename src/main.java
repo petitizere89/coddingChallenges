@@ -3,6 +3,7 @@ import java.util.List;
 
 public class main{
 /*
+  Petit Izere
   Today's Coding Challenge:
   create a function that counts the number of times a particular letter shows up in the word search.
 */
