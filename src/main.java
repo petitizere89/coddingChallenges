@@ -18,8 +18,8 @@ public class main{
         };
         List<String> list = new ArrayList<>();
         int counter = 0;
-        for(int i=0; i <= 4; i++){
-            for(int j =0; j<= 5;j++){
+        for(int i=0; i <= arr.length-1; i++){
+            for(int j =0; j<= arr[i].length-1;j++){
                 if(arr[i][j].equals("D")){
                     counter++;
                     list.add(arr[i][j]);
